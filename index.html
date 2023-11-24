@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.scss">
+    <script type="module" src="./assets/java/script.js" defer></script>
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <main>
+        <h1>Formulaire d'inscription</h1>
+        <form action=""> 
+        <div class="Identite">
+             <h2>Identite</h2>
+             <label for="radioMonsieur">Monsieur <input type="radio" id="Monsieur" name="choix" value="Monsieur" /></label>
+             <label for="radioMadame">Madame <input type="radio" id="radioNom" name="choix" value="Madame"  checked /></label><br>
+             <label for="Identite_Nom"> Nom </label>
+                 <input type="text" name="" id="Identite_Nom" required><br>
+             <label for="">Prenom</label>
+                 <input type="text" name="" id="Identite-Prenom"><br>
+             <label for="Identite-E-mail">E-mail</label>
+                 <input type="text" name="" id="Identite-E-mail">
+        <div class="Adresse">
+             <h2>Adresse de facturation</h2>
+             <label for="Ville">Ville</label>
+             <select  id="RueChoisir">
+                <option value="">chercher rue</option>
+             </select>
+             <!-- <label for=""> Rue </label>
+                 <input type="text" name="" id="Rue"> <br> -->
+             <!-- <label for="Ville">Ville</label>
+                 <input type="text" name="" id="Ville"><br> -->
+             <label for="Code-postal">Code postal</label>
+                 <input type="number" name="" id="Code-postal">     
+        <div class="Adresse de livraison">
+             <h2>Adresse de livraison</h2>
+             <label for="Rue1"> Rue </label>
+                 <input type="text" name="" id="Rue1"> <br>
+             <label for="Ville1">Ville</label>
+                 <input type="text" name="" id="Ville1"><br>
+             <label for="Code-postal1">Code postal</label>
+                 <input type="number" name="" id="Code-postal1">  
+         <!-- <div class="Valider"> -->
+             <button id="Valider">Valider</button>
+         <!-- </div>  -->
+        </form>
+    </main>
+    
+</body>
+</html>
